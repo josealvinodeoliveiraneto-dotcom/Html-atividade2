@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - José Alvino</title>
+</head>
+
+<body>
+
+    <p>Aqui será um conjunto de informações sobre carros.</p>
+
+    <div class="container">
+        <h2>Projetos</h2>
+        <ul>
+            <li><a href="pag2.html">Carros Clássicos</a></li>
+            <li><a href="pag3.html">Carros Sedan</a></li>
+            <li><a href="pag4.html">Esportivos Urbanos</a></li>
+            <li><a href="pag5.html">SUVs e Crossovers</a></li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2026 José Alvino de Oliveira</p>
+        </footer>
+    </div>
+</body>
+
+</html>
