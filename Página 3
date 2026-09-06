@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Sedan - Conforto e Espaço</title>
+    <style>
+        body { font-family: Georgia, serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #fdfdfd; color: #222; }
+        .container { max-width: 800px; margin: auto; background: #fff; padding: 30px; border-radius: 4px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        h1 { color: #1a237e; border-bottom: 2px solid #1a237e; padding-bottom: 10px; }
+        img { max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>A Elegância dos Modelos Sedan</h1>
+           <p>Uma <strong>carroceria sedã (do estrangeirismo sedan)</strong> , também denominada berlina, turismo ou três volumes, é um dos tipos mais comuns de carroceria e é o formato que a maioria das pessoas atualmente associa com o carro moderno.
 
+Basicamente, entende-se por sedã um carro com duas fileiras de bancos, com espaço considerável no banco de trás para três adultos, e um compartimento traseiro, geralmente para bagagens. Este compartimento traseiro é externo ao habitáculo dos passageiros e sua tampa não inclui o vidro traseiro..</p>
+        
+        <img src="https://pexels.com" alt="Sedan moderno">
+        
+        <h3>Atributos de Destaque</h3>
+        <ul>
+            <li>Porta-malas amplo e isolado do habitáculo de passageiros.</li>
+            <li>Maior espaço para pernas nos bancos traseiros.</li>
+            <li>Linhas aerodinâmicas que favorecem o conforto acústico.</li>
+        </ul>
+    </div>
+<div class="container">
+    <form action="/enviar-avaliacao" method="POST">
+  <p>O que você acha desse tipo de carro?</p>
+  
+<input type="radio" id="favorito" name="avaliacao" value="favorito">
+  <label for="favorito">Favorito</label><br>
+
+  <input type="radio" id="gosto" name="avaliacao" value="gosto">
+  <label for="gosto">Gosto</label><br>
+  
+  <input type="radio" id="neutro" name="avaliacao" value="neutro" checked>
+  <label for="neutro">Neutro</label><br>
+  
+  <input type="radio" id="não gosto" name="avaliacao" value="não gosto">
+  <label for="não gosto">não gosto</label><br><br>
+  
+  <input type="submit" value="Enviar Avaliação">
+</form>
+</div><br>
+<ul>
+        <li><a href="main.html">retorno à página principal</a></li>
+        <li><a href="pag2.html">Carros Clássicos</a></li>
+        <li><a href="pag4.html">Esportivos Urbanos</a></li>
+        <li><a href="pag5.html">SUVs e Crossovers</a></li>
+    </ul>
+
+</body>
+</html>
