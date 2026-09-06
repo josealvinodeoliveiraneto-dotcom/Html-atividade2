@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportivos Urbanos - Velocidade na Noite</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #111; color: #eee; }
+        .container { max-width: 800px; margin: auto; background: #222; padding: 20px; border-radius: 8px; box-shadow: 0 0 15px rgba(0,255,255,0.1); }
+        h1 { color: #00e5ff; }
+        img { max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 20px 0; border: 1px solid #333; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Esportivos Urbanos</h1>
+        <p>Um <strong>Carro esportivo</strong>, é geralmente um automóvel pequeno, de dois lugares e duas portas, desenhado para resposta rápida, fácil maneabilidade, e condução de alta velocidade. Carros esporte podem ser simples ou luxuosos, mas as características de grande manobrabilidade e baixo peso são requisitos essenciais.</p>
+        
+        <img src="https://shutterstock.com" alt="Carro esportivo urbano com design futurista">
+        
+        <h3>Especificações Principais</h3>
+        <ul>
+            <li>Motores turbo de alta eficiência.</li>
+            <li>Controles de tração e estabilidade eletrônicos de última geração.</li>
+            <li>Assinatura óptica em LED marcante.</li>
+        </ul>
+    </div>
 
+<form action="/enviar-avaliacao" method="POST">
+  <p>O que você acha desse tipo de carro?</p>
+  
+<div class="container">
+    <form action="/enviar-avaliacao" method="POST">
+  <p>O que você acha desse tipo de carro?</p>
+  
+<input type="radio" id="favorito" name="avaliacao" value="favorito">
+  <label for="favorito">Favorito</label><br>
+
+  <input type="radio" id="gosto" name="avaliacao" value="gosto">
+  <label for="gosto">Gosto</label><br>
+  
+  <input type="radio" id="neutro" name="avaliacao" value="neutro" checked>
+  <label for="neutro">Neutro</label><br>
+  
+  <input type="radio" id="não gosto" name="avaliacao" value="não gosto">
+  <label for="não gosto">não gosto</label><br><br>
+  
+  <input type="submit" value="Enviar Avaliação">
+</form>
+</div><br>
+<ul>
+        <li><a href="main.html">retorno à página principal</a></li>
+        <li><a href="pag2.html">Carros Clássicos</a></li>
+        <li><a href="pag3.html">Carros Sedan</a></li>
+        <li><a href="pag5.html">SUVs e Crossovers</a></li>
+    </ul>
+
+</body>
+</html>
