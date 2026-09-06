@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Clássicos - O Charme do Passado</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background-color: #f4f4f4; color: #333; }
+        .container { max-width: 800px; margin: auto; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #8b5a2b; }
+        img { max-width: 100%; height: auto; border-radius: 6px; display: block; margin: 20px 0; }
+        .btn { display: inline-block; background: #8b5a2b; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Carros Clássicos</h1>
+        <p>Um <strong>carro clássico</strong> é um carro mais antigo, normalmente com 25 anos ou mais, embora as definições variem. Carros clássicos são um subconjunto de uma categoria mais ampla de "carros de colecionador" (que inclui veículos de carros clássicos restaurados e veículos exóticos mais recentes). Um subconjunto do que é considerado carros clássicos é conhecido como carros antique (fabricados antes de 1980) ou carros vintage (fabricados antes da Segunda Guerra Mundial.</p>
+        
+        <img src="https://pexels.com" alt="Carro clássico">
+        
+        <h3>Destaques do Modelo</h3>
+        <ul>
+            <li>Design atemporal com detalhes cromados.</li>
+            <li>Motores com ronco característico e mecânica purista.</li>
+            <li>Alto valor histórico e de colecionismo.</li>
+        </ul>
+    </div>
 
+<div class="container">
+    <form action="/enviar-avaliacao" method="POST">
+  <p>O que você acha desse tipo de carro?</p>
+  
+<input type="radio" id="favorito" name="avaliacao" value="favorito">
+  <label for="favorito">Favorito</label><br>
+
+  <input type="radio" id="gosto" name="avaliacao" value="gosto">
+  <label for="gosto">Gosto</label><br>
+  
+  <input type="radio" id="neutro" name="avaliacao" value="neutro" checked>
+  <label for="neutro">Neutro</label><br>
+  
+  <input type="radio" id="não gosto" name="avaliacao" value="não gosto">
+  <label for="não gosto">não gosto</label><br><br>
+  
+  <input type="submit" value="Enviar Avaliação">
+</form>
+</div><br>
+<ul>
+        <li><a href="main.html">retorno à página principal</a></li>
+        <li><a href="pag3.html">Carros Sedan</a></li>
+        <li><a href="pag4.html">Esportivos Urbanos</a></li>
+        <li><a href="pag5.html">SUVs e Crossovers</a></li>
+    </ul>
+
+</body>
+</html>
